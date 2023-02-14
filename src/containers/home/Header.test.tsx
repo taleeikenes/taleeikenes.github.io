@@ -11,8 +11,7 @@ describe('Header', () => {
         // Expected page title
         //
         expect(screen.getByTestId('h1-title').innerHTML).toEqual(
-            'This is the wrong title🤨
-'
+            'Github Actions Workshop'
         );
     });
 });
